@@ -1,15 +1,27 @@
-type PrintDayOfWeek = (dayNumber: number) => void;
+type PrintDayOfWeek = (dayNumber: number) => string;
+
+const dayMinValue = 1;
 
 enum Day {
-  Monday = 1,
-  Tuesday = 2,
-  Wednesday = 3,
-  Thursday = 4,
-  Friday = 5,
-  Saturday = 6,
-  Sunday = 7,
+  Monday = dayMinValue,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
+  Sunday,
 }
 
+const dayMaxValue = Object.keys(Day).filter((k) => isNaN(Number(k))).length;
+
 export const printDayOfWeek: PrintDayOfWeek = (dayNumber) => {
-  console.log(Day[dayNumber]);
+  const paramIsOutOfRange = dayNumber < dayMinValue || dayNumber > dayMaxValue;
+
+  if (paramIsOutOfRange) {
+    throw new Error(
+      `The dayNumber argument should be between ${dayMinValue} and ${dayMaxValue}.`
+    );
+  }
+
+  return Day[dayNumber]!;
 };
