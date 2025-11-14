@@ -2,6 +2,7 @@ interface Dish {
   dishName: string;
   price: number;
   isVegan: boolean;
+  getDishInfo(): string;
 }
 
 type OrderStatus = "Pending" | "Shipped" | "Delivered";
@@ -10,14 +11,17 @@ interface OrderDetails {
   orderId: number;
   quantity: number;
   orderStatus: OrderStatus;
+  getOrderSummary(): string;
+  updateOrderStatus(): void;
+  getOrderStatus(): string;
 }
 
 class CustomerOrder implements Dish, OrderDetails {
-  dishName: string;
-  price: number;
-  isVegan: boolean;
-  orderId: number;
-  quantity: number;
+  dishName;
+  price;
+  isVegan;
+  orderId;
+  quantity;
   orderStatus: OrderStatus = "Pending";
 
   constructor(
