@@ -105,7 +105,7 @@ Builds on the fundamentals of ASP.NET Core by focusing on advanced techniques fo
 
 [Final Project: Book Hub](https://github.com/aleksandarMilev/book-hub)
 
-![10-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/12-asp-net-core-advanced/certificate.jpg)
+![10-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/12-asp-net-core-advanced/certificate.jpeg)
 
 ## ReactJS
 
@@ -126,7 +126,7 @@ Provides the knowledge and practical skills needed to build modern Single Page A
 
 [Final Project: Book Hub](https://github.com/aleksandarMilev/book-hub)
 
-![11-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/13-react-js/certificate.jpg)
+![11-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/13-react-js/certificate.jpeg)
 
 ## Express.js
 
