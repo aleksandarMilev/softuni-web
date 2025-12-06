@@ -1,7 +1,6 @@
 {
-  "type": "module",
   "scripts": {
-    "dev": "node --no-warnings --no-deprecation --loader ts-node/esm"
+    "dev": "ts-node .\\05-decorators\\03-created-on.ts"
   },
   "devDependencies": {
     "typescript": "^5.6.3",
