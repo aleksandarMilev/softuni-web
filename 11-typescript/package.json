@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node .\\05-decorators\\03-created-on.ts"
+    "dev": "ts-node .\\04-generics\\foo.ts"
   },
   "devDependencies": {
     "typescript": "^5.6.3",
