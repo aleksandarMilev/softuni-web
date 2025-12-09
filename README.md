@@ -152,3 +152,5 @@ Explores the core data types and essential features of the **TypeScript** langua
 - **OOP** principles - including classes, inheritance, abstraction, interfaces, and generics
 - modules and decorators
 - hands-on workshop, where all concepts are applied in the development of a complete **TypeScript** application.
+
+![13-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/11-typescript/certificate.jpg)
