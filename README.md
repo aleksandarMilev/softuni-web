@@ -153,4 +153,4 @@ Explores the core data types and essential features of the **TypeScript** langua
 - modules and decorators
 - hands-on workshop, where all concepts are applied in the development of a complete **TypeScript** application.
 
-![13-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/11-typescript/certificate.jpg)
+![13-cert](https://github.com/aleksandarMilev/softuni-web/blob/master/11-typescript/certificate.jpeg)
